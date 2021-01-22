@@ -1,0 +1,28 @@
+/* Agar content tidak tenggelam oleh navbar yang fixed-top */
+body {
+    margin-top: 65px;
+    transition: 0.2s;
+}
+
+/* Style saat mode gelap aktif */
+body.dark {
+    background-color: #292c35;
+    color: white;
+}
+
+/* Style untuk switch mode gelap */
+.wadah-tema-mode {
+    color: white;
+    transition: 0.2s;
+}
+
+/* Darkmode modal-content */
+.modal-content-dark {
+    background-color: #292c35;
+}
+
+/* Style untuk merubah warna card content menjadi dark */
+.card-dark {
+    background-color: #363941;
+    transition: 0.2s;
+}
